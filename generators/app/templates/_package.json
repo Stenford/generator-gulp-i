@@ -1,0 +1,35 @@
+{
+  "name": "GulpClear",
+  "version": "1.0.0",
+  "description": "gulp clear",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "..."
+  },
+  "author": "...",
+  "license": "ISC",
+  "homepage": "...",
+  "dependencies": {
+    "browser-sync": "^2.2.3",
+    "gulp": "^3.8.11",
+    "gulp-autoprefixer": "^2.1.0",
+    "gulp-html": "^0.4.7",
+    "gulp-imagemin": "^2.4.0",
+    "gulp-minify-css": "^1.0.0",
+    "gulp-notify": "^3.2.0",
+    "gulp-rigger": "^0.5.8",
+    "gulp-sourcemaps": "^1.5.0",
+    "gulp-stylus": "^1.3.3",
+    "gulp-uglify": "^1.1.0",
+    "gulp-watch": "^4.1.1",
+    "imagemin-gifsicle": "^5.2.0",
+    "imagemin-jpeg-recompress": "^5.1.0",
+    "imagemin-pngquant": "^4.0.0",
+    "imagemin-svgo": "^6.0.0",
+    "node-notifier": "^5.2.1"
+  }
+}
