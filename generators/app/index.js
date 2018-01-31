@@ -6,13 +6,13 @@ const mkdirp = require('mkdirp');
 
 module.exports = class extends Generator {
   prompting() {
-    //let done = this.async();
+    // Let done = this.async();
 
-    this.log(yosay(
-      'Welcome to the fantastic ' + chalk.red('generator-gulp') + ' generator!'
-    ));
+    this.log(
+      yosay('Welcome to the fantastic ' + chalk.red('generator-gulp-i') + ' generator!')
+    );
 
-    // const prompts = [{
+    // Const prompts = [{
     //   type: 'list',
     //   name: 'csspreproccess',
     //   message: 'Which css preprocessor you wish to use?',
@@ -46,30 +46,29 @@ module.exports = class extends Generator {
   }
 
   writing() {
-    mkdirp("app");
-    mkdirp("app/styl");
-    mkdirp("app/styl/import");
-    mkdirp("app/js");
-    mkdirp("app/img");
-    mkdirp("app/fonts");
-    mkdirp("app/html");
-    mkdirp("app/html/template");
-    mkdirp("build");
-
+    mkdirp('app');
+    mkdirp('app/styl');
+    mkdirp('app/styl/import');
+    mkdirp('app/js');
+    mkdirp('app/img');
+    mkdirp('app/fonts');
+    mkdirp('app/html');
+    mkdirp('app/html/template');
+    mkdirp('build');
 
     this.fs.copyTpl(
-        this.templatePath('_package.json'),
-        this.destinationPath('package.json')
+      this.templatePath('_package.json'),
+      this.destinationPath('package.json')
     );
     this.fs.copyTpl(
-        this.templatePath('_gulpfile.js'),
-        this.destinationPath('gulpfile.js')
+      this.templatePath('_gulpfile.js'),
+      this.destinationPath('gulpfile.js')
     );
   }
 
   install() {
     this.installDependencies({
-        npm: true
+      npm: true
     }).then(() => console.log('Everything is ready!'));
   }
 };
