@@ -28,11 +28,11 @@ yo gulp-i
 MIT © [Gusev Maxim](Index)
 
 
-[npm-image]: https://badge.fury.io/js/generator-y.svg
-[npm-url]: https://npmjs.org/package/generator-y
-[travis-image]: https://travis-ci.org/Stenford/generator-y.svg?branch=master
-[travis-url]: https://travis-ci.org/Stenford/generator-y
-[daviddm-image]: https://david-dm.org/Stenford/generator-y.svg?theme=shields.io
-[daviddm-url]: https://david-dm.org/Stenford/generator-y
-[coveralls-image]: https://coveralls.io/repos/Stenford/generator-y/badge.svg
-[coveralls-url]: https://coveralls.io/r/Stenford/generator-y
+[npm-image]: https://badge.fury.io/js/generator-gulp-i.svg
+[npm-url]: https://npmjs.org/package/generator-gulp-i
+[travis-image]: https://travis-ci.org/Stenford/generator-gulp-i.svg?branch=master
+[travis-url]: https://travis-ci.org/Stenford/generator-gulp-i
+[daviddm-image]: https://david-dm.org/Stenford/generator-gulp-i.svg?theme=shields.io
+[daviddm-url]: https://david-dm.org/Stenford/generator-gulp-i
+[coveralls-image]: https://coveralls.io/repos/Stenford/generator-gulp-i/badge.svg
+[coveralls-url]: https://coveralls.io/r/Stenford/generator-gulp-i
